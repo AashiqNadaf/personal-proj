@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-proj/static/css/main.29257e67.css",
+    "main.js": "/personal-proj/static/js/main.2b9604d8.js",
+    "static/js/787.fe1fed19.chunk.js": "/personal-proj/static/js/787.fe1fed19.chunk.js",
+    "static/media/together3.jpg": "/personal-proj/static/media/together3.6dba541a84cb7d413586.jpg",
+    "static/media/together4.jpg": "/personal-proj/static/media/together4.6990b61b09edc4d32f6d.jpg",
+    "static/media/together1.jpg": "/personal-proj/static/media/together1.661d06d7cd345c15c4d7.jpg",
+    "static/media/together2.jpg": "/personal-proj/static/media/together2.9bf3071bc8667d5305cc.jpg",
+    "static/media/angry-bubu.gif": "/personal-proj/static/media/angry-bubu.025a6f106e41bb6323b1.gif",
+    "static/media/marriagePic.jpg": "/personal-proj/static/media/marriagePic.5bb0da4c10fde52dfee7.jpg",
+    "static/media/confused-cute-cutie.gif": "/personal-proj/static/media/confused-cute-cutie.2e7f46516fdda12e5ca7.gif",
+    "static/media/bubu-proposal.gif": "/personal-proj/static/media/bubu-proposal.81c9a257d408f69a96bb.gif",
+    "index.html": "/personal-proj/index.html",
+    "main.29257e67.css.map": "/personal-proj/static/css/main.29257e67.css.map",
+    "main.2b9604d8.js.map": "/personal-proj/static/js/main.2b9604d8.js.map",
+    "787.fe1fed19.chunk.js.map": "/personal-proj/static/js/787.fe1fed19.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29257e67.css",
+    "static/js/main.2b9604d8.js"
+  ]
+}
