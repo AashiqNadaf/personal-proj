@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import './App.scss';
+import Welcome from './Pages/Welcome';
+import Confirmation from './Pages/Confirmation';
+import Accepted from './Pages/Accepted';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [pageNum, setPageNum] = useState(0);
+	if (pageNum === 0) {
+		return <Welcome setPageNum={setPageNum} />;
+	}
+	if (pageNum === 1) {
+		return <Confirmation setPageNum={setPageNum} />;
+	}
+	if (pageNum === 2) {
+		return <Accepted />;
+	}
 }
 
 export default App;
